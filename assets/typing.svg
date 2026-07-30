@@ -1,0 +1,28 @@
+<svg width="1200" height="112" viewBox="0 0 1200 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="112" gradientUnits="userSpaceOnUse"><stop stop-color="#090D18"/><stop offset="0.5" stop-color="#111329"/><stop offset="1" stop-color="#090D18"/></linearGradient>
+    <linearGradient id="accent" x1="32" y1="20" x2="1168" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#A855F7;#F472B6;#22D3EE" dur="6s" repeatCount="indefinite"/></stop><stop offset="0.5" stop-color="#A855F7"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="112" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="110" rx="17" stroke="url(#accent)" stroke-opacity="0.52" stroke-width="2" stroke-dasharray="16 8"><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="2.5s" repeatCount="indefinite"/></rect>
+  <g font-family="Consolas, Cascadia Code, monospace">
+    <circle cx="42" cy="36" r="5" fill="#22D3EE" filter="url(#glow)"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/></circle>
+    <text x="58" y="41" fill="#74809E" font-size="13" letter-spacing="1.4">bilingual.profile</text>
+    <text x="38" y="82" fill="#22D3EE" font-size="20" font-weight="700">&gt;</text>
+
+    <g opacity="1"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.44;0.5;0.94;1" dur="10s" repeatCount="indefinite"/>
+      <text x="70" y="82" fill="#E2E8F7" font-size="20" font-weight="600">Автоматизирую IT-процессы и связываю системы.</text>
+      <text x="1040" y="41" fill="#22D3EE" font-size="12" font-weight="700" letter-spacing="1.2">RU</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.44;0.5;0.94;1" dur="10s" repeatCount="indefinite"/>
+      <text x="70" y="82" fill="#E2E8F7" font-size="20" font-weight="600">I automate IT workflows and connect systems.</text>
+      <text x="1040" y="41" fill="#A855F7" font-size="12" font-weight="700" letter-spacing="1.2">EN</text>
+    </g>
+
+    <rect x="650" y="64" width="10" height="24" rx="2" fill="#F472B6" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/><animate attributeName="x" values="650;670;650" dur="10s" repeatCount="indefinite"/></rect>
+    <circle cx="1092" cy="74" r="4" fill="#22D3EE"><animate attributeName="r" values="3;6;3" dur="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1112" cy="74" r="4" fill="#A855F7"><animate attributeName="r" values="3;6;3" begin="0.2s" dur="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1132" cy="74" r="4" fill="#F472B6"><animate attributeName="r" values="3;6;3" begin="0.4s" dur="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
