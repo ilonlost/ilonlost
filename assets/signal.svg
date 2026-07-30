@@ -1,0 +1,73 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090C16"/>
+      <stop offset="0.5" stop-color="#0E1222"/>
+      <stop offset="1" stop-color="#090C16"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="55" y1="35" x2="1145" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="95" y1="0" x2="350" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0.18"/></linearGradient>
+    <linearGradient id="bar2" x1="380" y1="0" x2="635" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#A855F7"/><stop offset="1" stop-color="#A855F7" stop-opacity="0.18"/></linearGradient>
+    <linearGradient id="bar3" x1="665" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#F472B6"/><stop offset="1" stop-color="#F472B6" stop-opacity="0.18"/></linearGradient>
+    <linearGradient id="bar4" x1="950" y1="0" x2="1105" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#818CF8"/><stop offset="1" stop-color="#818CF8" stop-opacity="0.18"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" stroke="url(#stroke)" stroke-opacity="0.38" stroke-width="2"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <circle cx="65" cy="45" r="5" fill="#22D3EE" filter="url(#glow)"/>
+    <text x="82" y="50" fill="#D7DDF0" font-size="15" font-weight="700" letter-spacing="2.4">PUBLIC ENGINEERING SIGNAL</text>
+    <text x="1138" y="50" text-anchor="end" fill="#68728F" font-size="12" letter-spacing="1.6">VERIFIED PORTFOLIO SNAPSHOT</text>
+
+    <g>
+      <rect x="55" y="78" width="255" height="108" rx="14" fill="#12172A" stroke="#22D3EE" stroke-opacity="0.28"/>
+      <text x="78" y="128" fill="#22D3EE" font-size="40" font-weight="800">06</text>
+      <text x="78" y="158" fill="#AAB4D0" font-size="13" font-weight="700" letter-spacing="1.7">PUBLIC BUILDS</text>
+      <path d="M238 154H281" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="281" cy="154" r="4" fill="#22D3EE" filter="url(#glow)"/>
+    </g>
+    <g>
+      <rect x="333" y="78" width="255" height="108" rx="14" fill="#12172A" stroke="#A855F7" stroke-opacity="0.3"/>
+      <text x="356" y="128" fill="#B86CF9" font-size="40" font-weight="800">02</text>
+      <text x="356" y="158" fill="#AAB4D0" font-size="13" font-weight="700" letter-spacing="1.7">AUTOMATION BOTS</text>
+      <path d="M516 154H559" stroke="#A855F7" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="559" cy="154" r="4" fill="#A855F7" filter="url(#glow)"/>
+    </g>
+    <g>
+      <rect x="611" y="78" width="255" height="108" rx="14" fill="#12172A" stroke="#F472B6" stroke-opacity="0.3"/>
+      <text x="634" y="128" fill="#F472B6" font-size="40" font-weight="800">13</text>
+      <text x="634" y="158" fill="#AAB4D0" font-size="13" font-weight="700" letter-spacing="1.7">NETWORK LABS</text>
+      <path d="M794 154H837" stroke="#F472B6" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="837" cy="154" r="4" fill="#F472B6" filter="url(#glow)"/>
+    </g>
+    <g>
+      <rect x="889" y="78" width="255" height="108" rx="14" fill="#12172A" stroke="#818CF8" stroke-opacity="0.3"/>
+      <text x="912" y="128" fill="#8E9AFB" font-size="40" font-weight="800">01</text>
+      <text x="912" y="158" fill="#AAB4D0" font-size="13" font-weight="700" letter-spacing="1.7">ENGINEERING MINDSET</text>
+      <path d="M1072 154H1115" stroke="#818CF8" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="1115" cy="154" r="4" fill="#818CF8" filter="url(#glow)"/>
+    </g>
+
+    <rect x="55" y="211" width="1089" height="66" rx="13" fill="#0D1222" stroke="#303957" stroke-opacity="0.72"/>
+    <text x="78" y="238" fill="#68728F" font-size="11" font-weight="700" letter-spacing="1.5">FOCUS MAP</text>
+
+    <text x="78" y="263" fill="#C8D0E8" font-size="12" font-weight="700" letter-spacing="1.2">AUTOMATION</text>
+    <rect x="166" y="254" width="138" height="8" rx="4" fill="#1B2438"/><rect x="166" y="254" width="124" height="8" rx="4" fill="url(#bar1)"/>
+
+    <text x="354" y="263" fill="#C8D0E8" font-size="12" font-weight="700" letter-spacing="1.2">DATA</text>
+    <rect x="406" y="254" width="138" height="8" rx="4" fill="#1B2438"/><rect x="406" y="254" width="108" height="8" rx="4" fill="url(#bar2)"/>
+
+    <text x="594" y="263" fill="#C8D0E8" font-size="12" font-weight="700" letter-spacing="1.2">NETWORKS</text>
+    <rect x="682" y="254" width="138" height="8" rx="4" fill="#1B2438"/><rect x="682" y="254" width="94" height="8" rx="4" fill="url(#bar3)"/>
+
+    <text x="870" y="263" fill="#C8D0E8" font-size="12" font-weight="700" letter-spacing="1.2">WEB</text>
+    <rect x="912" y="254" width="138" height="8" rx="4" fill="#1B2438"/><rect x="912" y="254" width="72" height="8" rx="4" fill="url(#bar4)"/>
+    <text x="1120" y="263" text-anchor="end" fill="#68728F" font-size="11" letter-spacing="1">BUILDING →</text>
+  </g>
+</svg>
