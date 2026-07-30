@@ -86,8 +86,7 @@ A compact space for web-oriented experiments and interfaces around practical IT 
 ## `> github_signal`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ilonlost&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&icon_color=22D3EE&rank_icon=github" alt="ilonlost GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilonlost&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9" alt="Most used languages" />
+  <img src="./assets/signal.svg" width="100%" alt="ilonlost public engineering signal" />
 </div>
 
 <br />
