@@ -1,0 +1,73 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.52" stop-color="#0D1021"/>
+      <stop offset="1" stop-color="#090B16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="92" y1="90" x2="706" y2="265" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="760" y1="72" x2="1090" y2="294" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151A31" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0B1020" stop-opacity="0.92"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#6D7DA8" stroke-opacity="0.09"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="url(#accent)" stroke-opacity="0.48" stroke-width="2"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+
+  <circle cx="151" cy="38" r="92" fill="#22D3EE" fill-opacity="0.12" filter="url(#soft)"/>
+  <circle cx="681" cy="345" r="120" fill="#A855F7" fill-opacity="0.14" filter="url(#soft)"/>
+  <circle cx="1116" cy="40" r="100" fill="#F472B6" fill-opacity="0.1" filter="url(#soft)"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <rect x="72" y="55" width="194" height="30" rx="15" fill="#11182B" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <circle cx="91" cy="70" r="4" fill="#22D3EE" filter="url(#glow)"/>
+    <text x="104" y="75" fill="#AAB5D3" font-size="13" font-weight="600" letter-spacing="1.5">GITHUB / ILONLOST</text>
+
+    <text x="70" y="178" fill="url(#accent)" font-size="78" font-weight="800" letter-spacing="7">ILONLOST</text>
+    <text x="75" y="218" fill="#C9D1E6" font-size="17" font-weight="600" letter-spacing="3.2">IT AUTOMATION  /  INFRASTRUCTURE  /  CODE</text>
+
+    <rect x="73" y="258" width="105" height="34" rx="8" fill="#22D3EE" fill-opacity="0.1" stroke="#22D3EE" stroke-opacity="0.46"/>
+    <text x="99" y="280" fill="#70E8F7" font-size="13" font-weight="700" letter-spacing="1">PYTHON</text>
+    <rect x="190" y="258" width="102" height="34" rx="8" fill="#A855F7" fill-opacity="0.1" stroke="#A855F7" stroke-opacity="0.5"/>
+    <text x="216" y="280" fill="#C98AFB" font-size="13" font-weight="700" letter-spacing="1">MSSQL</text>
+    <rect x="304" y="258" width="143" height="34" rx="8" fill="#F472B6" fill-opacity="0.09" stroke="#F472B6" stroke-opacity="0.48"/>
+    <text x="324" y="280" fill="#F7A4CF" font-size="13" font-weight="700" letter-spacing="1">NETWORKING</text>
+
+    <g>
+      <rect x="758" y="60" width="372" height="240" rx="18" fill="url(#panel)" stroke="#8B5CF6" stroke-opacity="0.52"/>
+      <rect x="758" y="60" width="372" height="42" rx="18" fill="#161C34"/>
+      <path d="M758 102H1130" stroke="#39405D" stroke-opacity="0.7"/>
+      <circle cx="783" cy="81" r="5" fill="#F472B6"/>
+      <circle cx="802" cy="81" r="5" fill="#A855F7"/>
+      <circle cx="821" cy="81" r="5" fill="#22D3EE"/>
+      <text x="958" y="86" text-anchor="middle" fill="#7F8AA8" font-size="12" letter-spacing="1.2">system.profile</text>
+
+      <text x="788" y="139" fill="#22D3EE" font-size="15" font-family="Consolas, monospace">01</text>
+      <text x="826" y="139" fill="#D6DCF0" font-size="15" font-family="Consolas, monospace">build reliable tools</text>
+      <text x="788" y="181" fill="#A855F7" font-size="15" font-family="Consolas, monospace">02</text>
+      <text x="826" y="181" fill="#D6DCF0" font-size="15" font-family="Consolas, monospace">connect systems &amp; people</text>
+      <text x="788" y="223" fill="#F472B6" font-size="15" font-family="Consolas, monospace">03</text>
+      <text x="826" y="223" fill="#D6DCF0" font-size="15" font-family="Consolas, monospace">automate the boring stuff</text>
+
+      <path d="M790 260H1088" stroke="#28314F" stroke-width="2"/>
+      <path d="M790 260C830 244 859 276 900 260C943 243 970 279 1018 260C1044 250 1065 251 1088 260" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+      <circle cx="1088" cy="260" r="4" fill="#22D3EE"/>
+    </g>
+  </g>
+</svg>
